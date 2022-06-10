@@ -1,0 +1,766 @@
+@media (max-width: 374.98px) {
+    /*our-story-top*/
+    .our__story-top .top-section span {
+        display: inline!important;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .our__story-top {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 60px 12px;
+        font-family: 'Montserrat', sans-serif;
+        background-image: url("../../images/home/our-story-top.png");
+    }
+
+    .our__story-top .top-section .title {
+        font-size: 25px;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* our-story-center*/
+    .our__story-center {
+        background-color: #fff;
+        padding: 50px 0 20px;
+    }
+
+    .our__story-center .title {
+        color: #01539C;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .our__story-center .introduce {
+        margin-bottom: 0;
+        color: #1F1F20;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    .our__story-center .introduce span {
+        display: inline!important;
+    }
+
+    .our__story-center .title-second {
+        padding: 35px 0;
+    }
+
+    .our__story-center .item h4 {
+        color: #1F1F20;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .our__story-center .item {
+        margin-bottom: 40px;
+    }
+    .our__story-center .item .col-5 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin: auto 0;
+    }
+    .our__story-center .item .col-7 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        height: 200px;
+    }
+
+    .our__story-center .item p {
+        color: #1F1F20;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0;
+    }
+
+    .our__story-center .item .item-mb {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        height: 100%;
+        min-width: 80px;
+        background-image: url("../../images/home/minhbach.png");
+    }
+
+    .our__story-center .item .item-tt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        height: 100%;
+        min-width: 80px;
+        background-image: url("../../images/home/trungthuc.png");
+    }
+
+
+    .our__story-center .item .item-bm {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 65%;
+        height: 100%;
+        min-width: 80px;
+        background-image: url("../../images/home/baomat.png");
+    }
+
+    .our__story-center .item .item-kt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 65%;
+        height: 100%;
+        /*width: 600px;*/
+        background-image: url("../../images/home/kythuat.png");
+    }
+    .our__story-center .item .item-tn {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        height: 100%;
+        min-width: 80px;
+        background-image: url("../../images/home/trachnhiem.png");
+    }
+}
+
+@media (min-width: 375px) and (max-width: 575.98px) {
+    /*our-story-top*/
+    .our__story-top .top-section span {
+        display: inline!important;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .our__story-top {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 60px 0;
+        font-family: 'Montserrat', sans-serif;
+        background-image: url("../../images/home/our-story-top.png");
+    }
+
+    .our__story-top .top-section .title {
+        font-size: 22px;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* our-story-center*/
+    .our__story-center {
+        background-color: #fff;
+        padding: 50px 0 20px;
+    }
+
+    .our__story-center .title {
+        color: #01539C;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .our__story-center .introduce {
+        margin-bottom: 0;
+        color: #1F1F20;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    .our__story-center .introduce span {
+        display: inline!important;
+    }
+
+    .our__story-center .title-second {
+        padding: 35px 0;
+    }
+
+    .our__story-center .item h4 {
+        color: #1F1F20;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .our__story-center .item {
+        margin-bottom: 40px;
+    }
+    .our__story-center .item .col-5 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin: auto 0;
+    }
+    .our__story-center .item .col-7 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        height: 200px;
+    }
+
+    .our__story-center .item p {
+        color: #1F1F20;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0;
+    }
+
+    .our__story-center .item .item-mb {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        height: 100%;
+        min-width: 100px;
+        background-image: url("../../images/home/minhbach.png");
+    }
+
+    .our__story-center .item .item-tt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        height: 100%;
+        min-width: 100px;
+        background-image: url("../../images/home/trungthuc.png");
+    }
+
+
+    .our__story-center .item .item-bm {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 65%;
+        height: 100%;
+        min-width: 100px;
+        background-image: url("../../images/home/baomat.png");
+    }
+
+    .our__story-center .item .item-kt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 65%;
+        height: 100%;
+        /*width: 600px;*/
+        background-image: url("../../images/home/kythuat.png");
+    }
+    .our__story-center .item .item-tn {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        height: 100%;
+        min-width: 100px;
+        background-image: url("../../images/home/trachnhiem.png");
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*our-story-top*/
+    .our__story-top {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 60px 0;
+        font-family: 'Montserrat', sans-serif;
+        background-image: url("../../images/home/our-story-top.png");
+    }
+
+    .our__story-top .top-section .title {
+        font-size: 25px;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* our-story-center*/
+    .our__story-center {
+        background-color: #fff;
+        padding: 50px 0 20px;
+    }
+
+    .our__story-center .title {
+        color: #01539C;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .our__story-center .introduce {
+        margin-bottom: 0;
+        color: #1F1F20;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+
+    .our__story-center .title-second {
+        padding: 35px 0;
+    }
+
+    .our__story-center .item h4 {
+        color: #1F1F20;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .our__story-center .item {
+        margin-bottom: 40px;
+    }
+    .our__story-center .item .col-5 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin: auto 0;
+    }
+    .our__story-center .item .col-7 {
+        max-width: 50%;
+        flex: 0 0 50%;
+       min-height: 150px;
+    }
+
+    .our__story-center .item p {
+        color: #1F1F20;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0;
+    }
+
+    .our__story-center .item .item-mb {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90% 80%;
+        height: 100%;
+        width: 200px;
+        background-image: url("../../images/home/minhbach.png");
+    }
+
+    .our__story-center .item .item-tt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90% 80%;
+        height: 100%;
+        width: 200px;
+        background-image: url("../../images/home/trungthuc.png");
+    }
+
+
+    .our__story-center .item .item-bm {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90% 100%;
+        height: 100%;
+        width: 250px;
+        background-image: url("../../images/home/baomat.png");
+    }
+
+    .our__story-center .item .item-kt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        /*width: 600px;*/
+        background-image: url("../../images/home/kythuat.png");
+    }
+    .our__story-center .item .item-tn {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 75%;
+        height: 100%;
+        width: 200px;
+        background-image: url("../../images/home/trachnhiem.png");
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*our-story-top*/
+    .our__story-top {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 80px 0;
+        font-family: 'Montserrat', sans-serif;
+        background-image: url("../../images/home/our-story-top.png");
+    }
+
+    .our__story-top .top-section .title {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* our-story-center*/
+    .our__story-center {
+        background-color: #fff;
+        padding: 70px 0 30px;
+    }
+
+    .our__story-center .title {
+        color: #01539C;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .our__story-center .introduce {
+        margin-bottom: 0;
+        color: #1F1F20;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+
+    .our__story-center .title-second {
+        padding: 50px 0;
+    }
+
+    .our__story-center .item h4 {
+        color: #1F1F20;
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .our__story-center .item {
+        margin-bottom: 40px;
+    }
+    .our__story-center .item .col-5 {
+        max-width: 42%;
+        margin: auto 0;
+    }
+    .our__story-center .item .col-7 {
+        max-width: 58%;
+        height: 250px;
+    }
+
+    .our__story-center .item p {
+        color: #1F1F20;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0;
+    }
+
+    .our__story-center .item .item-mb {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 80%;
+        height: 100%;
+        width: 250px;
+        background-image: url("../../images/home/minhbach.png");
+    }
+
+    .our__story-center .item .item-tt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 80%;
+        height: 100%;
+        width: 250px;
+        background-image: url("../../images/home/trungthuc.png");
+    }
+
+
+    .our__story-center .item .item-bm {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        width: 300px;
+        background-image: url("../../images/home/baomat.png");
+    }
+
+    .our__story-center .item .item-kt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90% 100%;
+        height: 100%;
+        /*width: 600px;*/
+        background-image: url("../../images/home/kythuat.png");
+    }
+    .our__story-center .item .item-tn {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 75%;
+        height: 100%;
+        width: 250px;
+        background-image: url("../../images/home/trachnhiem.png");
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*our-story-top*/
+    .our__story-top {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 100px 0;
+        font-family: 'Montserrat', sans-serif;
+        background-image: url("../../images/home/our-story-top.png");
+    }
+
+    .our__story-top .top-section .title {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* our-story-center*/
+    .our__story-center {
+        background-color: #fff;
+        padding: 70px 0 30px;
+    }
+
+    .our__story-center .title {
+        color: #01539C;
+        font-size: 35px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .our__story-center .introduce {
+        margin-bottom: 0;
+        color: #1F1F20;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+
+    .our__story-center .title-second {
+        padding: 60px 0;
+    }
+
+    .our__story-center .item h4 {
+        color: #1F1F20;
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .our__story-center .item {
+        margin-bottom: 40px;
+    }
+    .our__story-center .item .col-5 {
+        max-width: 38%;
+        margin: auto 0;
+    }
+    .our__story-center .item .col-7 {
+        max-width: 62%;
+        height: 350px;
+    }
+
+    .our__story-center .item p {
+        color: #1F1F20;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0;
+    }
+
+    .our__story-center .item .item-mb {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 80%;
+        height: 100%;
+        width: 350px;
+        background-image: url("../../images/home/minhbach.png");
+    }
+
+    .our__story-center .item .item-tt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 80%;
+        height: 100%;
+        width: 350px;
+        background-image: url("../../images/home/trungthuc.png");
+    }
+
+
+    .our__story-center .item .item-bm {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        width: 400px;
+        background-image: url("../../images/home/baomat.png");
+    }
+
+    .our__story-center .item .item-kt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        /*width: 600px;*/
+        background-image: url("../../images/home/kythuat.png");
+    }
+    .our__story-center .item .item-tn {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 75%;
+        height: 100%;
+        width: 370px;
+        background-image: url("../../images/home/trachnhiem.png");
+    }
+}
+
+/*pc*/
+@media (min-width: 1200px) {
+    /*our-story-top*/
+    .our__story-top {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 120px 0;
+        font-family: 'Montserrat', sans-serif;
+        background-image: url("../../images/home/our-story-top.png");
+    }
+
+    .our__story-top .top-section .title {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* our-story-center*/
+    .our__story-center {
+        background-color: #fff;
+        padding: 70px 0 30px;
+    }
+
+    .our__story-center .title {
+        color: #01539C;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .our__story-center .introduce {
+        margin-bottom: 0;
+        color: #1F1F20;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+
+    .our__story-center .title-second {
+        padding: 70px 0;
+    }
+
+    .our__story-center .item h4 {
+        color: #1F1F20;
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .our__story-center .item {
+        margin-bottom: 40px;
+    }
+    .our__story-center .item .col-5 {
+        max-width: 38%;
+        margin: auto 0;
+    }
+    .our__story-center .item .col-7 {
+        max-width: 62%;
+        height: 400px;
+    }
+
+    .our__story-center .item p {
+        color: #1F1F20;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0;
+    }
+
+    .our__story-center .item .item-mb {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        width: 400px;
+        background-image: url("../../images/home/minhbach.png");
+    }
+
+    .our__story-center .item .item-tt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        width: 400px;
+        background-image: url("../../images/home/trungthuc.png");
+    }
+
+    .our__story-center .item .item-tn {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        /*background-size: 100% 100%;*/
+        height: 100%;
+        width: 400px;
+        background-image: url("../../images/home/trachnhiem.png");
+    }
+
+    .our__story-center .item .item-bm {
+        margin: 0 0 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        width: 420px;
+        background-image: url("../../images/home/baomat.png");
+    }
+
+    .our__story-center .item .item-kt {
+        margin: 0 auto 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        width: 600px;
+        background-image: url("../../images/home/kythuat.png");
+    }
+}
+

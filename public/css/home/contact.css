@@ -1,0 +1,1463 @@
+@media (max-width: 369.98px) {
+    .contact__vpn .contact__top {
+        background-image: url("../../images/home/contact-300x300.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .contact__vpn .contact__top h1{
+        font-size: 25px;
+    }
+    .contact__vpn .contact__top .row {
+        padding: 40px 0;
+    }
+
+    .contact__vpn .contact__top .left {
+        text-align: center;
+    }
+
+    .contact__vpn .contact__top .left h4 {
+        color: #01539C;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .contact__vpn .contact__top .left p {
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    /*div right*/
+    .contact__vpn .contact__top .right {
+        /*display: flex;*/
+    }
+    .contact__vpn .contact__top .right .top {
+        display: flex;
+        padding: 12px 0;
+        margin-right: 10px;
+    }
+    .contact__vpn .contact__top .right .bottom {
+        display: flex;
+        padding: 12px 0;
+        /*width: 50%;*/
+    }
+
+    .contact__vpn .contact__top .right .top {
+
+    }
+
+    .contact__vpn .contact__top .right .circle {
+        display: inline-block;
+        padding: 10px 10px 8px;
+        border-radius: 50%;
+        background-color: #F7A100;
+        margin-right: 8px;
+    }
+
+    .contact__vpn .contact__top .right .top .circle .icon {
+        background-image: url("../../images/home/support.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+    }
+
+    .contact__vpn .contact__top .right .bottom .circle .icon {
+        background-image: url("../../images/home/contact-email.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+    }
+
+    .contact__vpn .contact__top .right .text {
+        margin: auto 0;
+    }
+
+    .contact__vpn .contact__top .right .title {
+        color: #1F1F20;
+        font-size: 14px;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__top .right .text-under {
+        font-size: 17px;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /*form*/
+    .contact__vpn .contact__form {
+        background-color: #fff;
+        padding: 30px 0 60px;
+    }
+
+    .contact__vpn .contact__form .title {
+        color: #01539C;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .contact__vpn .contact__form form {
+        padding: 20px 8px;
+        border: 1px solid #F7A100;
+    }
+
+    .contact__vpn .contact__form label {
+        color: #1F1F20;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__form .form-control {
+        border-radius: 0;
+        border: 1px solid #bfbfbf;
+    }
+
+    .contact__vpn .contact__form form .form-row {
+        margin: 0;
+    }
+
+    .contact__vpn .contact__form input {
+        padding: 12px 12px 12px 20px;
+    }
+
+    .contact__vpn .contact__form .form-group {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .contact__vpn .contact__form textarea {
+        height: 150px;
+    }
+
+    /*input file div*/
+    .contact__vpn .contact__form .form-row .input__file {
+        display: none;
+    }
+
+    .contact__vpn .contact__form .icon-file .file {
+        background-image: url("../../images/home/attachment.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .contact__vpn .contact__form .icon-file {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        padding: 6px 8px;
+        background-color: #F7A100;
+        color: #fff;
+        max-width: 60%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        cursor: pointer;
+
+    }
+
+    .contact__vpn .contact__form .bot__code {
+        margin-top: 12px;
+        display: flex;
+    }
+
+    .contact__vpn .contact__form .background__code {
+        background-image: url("../../images/home/code.webp");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 100px;
+        height: 25px;
+    }
+
+    .contact__vpn .contact__form .background__code .code {
+        margin: -2px 25px;
+        font-size: 18px;
+        color: #8c8c8c;
+    }
+
+    .contact__vpn .contact__form .reload {
+        background-image: url("../../images/home/refresh.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+
+    .contact__vpn .contact__form .button__form {
+        display: flex;
+        justify-content: center;
+        padding: 35px 0 20px;
+
+    }
+
+    .contact__vpn .contact__form .button__form .button:hover {
+        transition: 0.5s;
+        transform: translateY(-3px);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+
+    .contact__vpn .contact__form .button {
+        border: none;
+        cursor: pointer;
+        background-color: #F7A100;
+        padding: 8px 40px;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .contact__vpn .contact__form .icon-button {
+        background-image: url("../../images/home/send.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 25px;
+        height: 20px;
+        margin-right: 8px;
+    }
+
+    .contact__vpn .contact__form .hide__label {
+        display: none;
+    }
+}
+
+@media (min-width: 370px) and (max-width: 575.98px) {
+    .contact__vpn .contact__top {
+        background-image: url("../../images/home/contact-300x300.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .contact__vpn .contact__top h1{
+        font-size: 30px;
+    }
+
+    .contact__vpn .contact__top .row {
+        padding: 40px 0;
+    }
+
+    .contact__vpn .contact__top .left {
+        text-align: center;
+    }
+
+    .contact__vpn .contact__top .left h4 {
+        color: #01539C;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .contact__vpn .contact__top .left p {
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    /*div right*/
+    .contact__vpn .contact__top .right {
+        display: flex;
+    }
+    .contact__vpn .contact__top .right .top {
+        display: flex;
+        padding: 12px 0;
+        width: 40%;
+        margin-right: 10px;
+    }
+    .contact__vpn .contact__top .right .bottom {
+        display: flex;
+        padding: 12px 0;
+        /*width: 50%;*/
+    }
+
+    .contact__vpn .contact__top .right .top {
+
+    }
+
+    .contact__vpn .contact__top .right .circle {
+        display: inline-block;
+        padding: 10px 10px 8px;
+        border-radius: 50%;
+        background-color: #F7A100;
+        margin-right: 8px;
+    }
+
+    .contact__vpn .contact__top .right .top .circle .icon {
+        background-image: url("../../images/home/support.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+    }
+
+    .contact__vpn .contact__top .right .bottom .circle .icon {
+        background-image: url("../../images/home/contact-email.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+    }
+
+    .contact__vpn .contact__top .right .text {
+        margin: auto 0;
+    }
+
+    .contact__vpn .contact__top .right .title {
+        color: #1F1F20;
+        font-size: 14px;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__top .right .text-under {
+        font-size: 17px;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /*form*/
+    .contact__vpn .contact__form {
+        background-color: #fff;
+        padding: 30px 0 60px;
+    }
+
+    .contact__vpn .contact__form .title {
+        color: #01539C;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .contact__vpn .contact__form form {
+        padding: 20px 8px;
+        border: 1px solid #F7A100;
+    }
+
+    .contact__vpn .contact__form label {
+        color: #1F1F20;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__form .form-control {
+        border-radius: 0;
+        border: 1px solid #bfbfbf;
+    }
+
+    .contact__vpn .contact__form form .form-row {
+        margin: 0;
+    }
+
+    .contact__vpn .contact__form input {
+        padding: 12px 12px 12px 20px;
+    }
+
+    .contact__vpn .contact__form .form-group {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .contact__vpn .contact__form textarea {
+        height: 150px;
+    }
+
+    /*input file div*/
+    .contact__vpn .contact__form .form-row .input__file {
+        display: none;
+    }
+
+    .contact__vpn .contact__form .icon-file .file {
+        background-image: url("../../images/home/attachment.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .contact__vpn .contact__form .icon-file {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        padding: 6px 8px;
+        background-color: #F7A100;
+        color: #fff;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        cursor: pointer;
+
+    }
+
+    .contact__vpn .contact__form .bot__code {
+        margin-top: 12px;
+        display: flex;
+    }
+
+    .contact__vpn .contact__form .background__code {
+        background-image: url("../../images/home/code.webp");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 100px;
+        height: 25px;
+    }
+
+    .contact__vpn .contact__form .background__code .code {
+        margin: -2px 25px;
+        font-size: 18px;
+        color: #8c8c8c;
+    }
+
+    .contact__vpn .contact__form .reload {
+        background-image: url("../../images/home/refresh.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+
+    .contact__vpn .contact__form .button__form {
+        display: flex;
+        justify-content: center;
+        padding: 35px 0 20px;
+
+    }
+
+    .contact__vpn .contact__form .button__form .button:hover {
+        transition: 0.5s;
+        transform: translateY(-3px);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+
+    .contact__vpn .contact__form .button {
+        border: none;
+        cursor: pointer;
+        background-color: #F7A100;
+        padding: 8px 40px;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .contact__vpn .contact__form .icon-button {
+        background-image: url("../../images/home/send.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 25px;
+        height: 20px;
+        margin-right: 8px;
+    }
+
+    .contact__vpn .contact__form .hide__label {
+        display: none;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contact__vpn .contact__top {
+        background-image: url("../../images/home/contact-300x300.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .contact__vpn .contact__top h1{
+        font-size: 35px;
+    }
+    .contact__vpn .contact__top .row {
+        padding: 40px 0;
+    }
+
+    .contact__vpn .contact__top .left {
+        text-align: center;
+    }
+
+    .contact__vpn .contact__top .left h4 {
+        color: #01539C;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .contact__vpn .contact__top .left p {
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    /*div right*/
+    .contact__vpn .contact__top .right {
+        display: flex;
+    }
+
+    .contact__vpn .contact__top .right .top, .contact__vpn .contact__top .right .bottom {
+        display: flex;
+        padding: 12px 0;
+        margin-left: 16px;
+    }
+
+    .contact__vpn .contact__top .right .top {
+
+    }
+
+    .contact__vpn .contact__top .right .circle {
+        display: inline-block;
+        padding: 18px 18px 14px;
+        border-radius: 50%;
+        background-color: #F7A100;
+        margin-right: 30px;
+    }
+
+    .contact__vpn .contact__top .right .top .circle .icon {
+        background-image: url("../../images/home/support.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact__vpn .contact__top .right .bottom .circle .icon {
+        background-image: url("../../images/home/contact-email.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact__vpn .contact__top .right .text {
+        margin: auto 0;
+    }
+
+    .contact__vpn .contact__top .right .title {
+        color: #1F1F20;
+        font-size: 15px;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__top .right .text-under {
+        font-size: 20px;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /*form*/
+    .contact__vpn .contact__form {
+        background-color: #fff;
+        padding: 30px 0 60px;
+    }
+
+    .contact__vpn .contact__form .title {
+        color: #01539C;
+        font-size: 28px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .contact__vpn .contact__form form {
+        padding: 30px 16px;
+        border: 1px solid #F7A100;
+    }
+
+    .contact__vpn .contact__form label {
+        color: #1F1F20;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__form .form-control {
+        border-radius: 0;
+        border: 1px solid #bfbfbf;
+    }
+
+    .contact__vpn .contact__form form .form-row {
+        margin: 0;
+    }
+
+    .contact__vpn .contact__form input {
+        padding: 12px 12px 12px 20px;
+    }
+
+    .contact__vpn .contact__form .form-group {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .contact__vpn .contact__form textarea {
+        height: 150px;
+    }
+
+    /*input file div*/
+    .contact__vpn .contact__form .form-row .input__file {
+        display: none;
+    }
+
+    .contact__vpn .contact__form .icon-file .file {
+        background-image: url("../../images/home/attachment.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .contact__vpn .contact__form .icon-file {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        padding: 6px 8px;
+        background-color: #F7A100;
+        color: #fff;
+        max-width: 32%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        cursor: pointer;
+
+    }
+
+    .contact__vpn .contact__form .bot__code {
+        margin-top: 12px;
+        display: flex;
+    }
+
+    .contact__vpn .contact__form .background__code {
+        background-image: url("../../images/home/code.webp");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 100px;
+        height: 25px;
+    }
+
+    .contact__vpn .contact__form .background__code .code {
+        margin: -2px 25px;
+        font-size: 18px;
+        color: #8c8c8c;
+    }
+
+    .contact__vpn .contact__form .reload {
+        background-image: url("../../images/home/refresh.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+
+    .contact__vpn .contact__form .button__form {
+        display: flex;
+        justify-content: center;
+        padding: 35px 0 20px;
+
+    }
+
+    .contact__vpn .contact__form .button__form .button:hover {
+        transition: 0.5s;
+        transform: translateY(-3px);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+
+    .contact__vpn .contact__form .button {
+        border: none;
+        cursor: pointer;
+        background-color: #F7A100;
+        padding: 8px 40px;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .contact__vpn .contact__form .icon-button {
+        background-image: url("../../images/home/send.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 25px;
+        height: 20px;
+        margin-right: 8px;
+    }
+
+    .contact__vpn .contact__form .hide__label {
+        display: none;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contact__vpn .contact__top {
+        background-image: url("../../images/home/contact.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .contact__vpn .contact__top h1{
+        font-size: 25px;
+    }
+    .contact__vpn .contact__top .row {
+        padding: 40px 0;
+    }
+
+    .contact__vpn .contact__top .left {
+        margin: auto 0;
+    }
+
+    .contact__vpn .contact__top .left h4 {
+        color: #01539C;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .contact__vpn .contact__top .left p {
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    /*div right*/
+    .contact__vpn .contact__top .right {
+        border-left: 1px solid rgba(0, 119, 179, 0.2);
+        padding-left: 20px;
+    }
+
+    .contact__vpn .contact__top .right .top, .contact__vpn .contact__top .right .bottom {
+        display: flex;
+        padding: 12px 0;
+    }
+
+    .contact__vpn .contact__top .right .top {
+
+    }
+
+    .contact__vpn .contact__top .right .circle {
+        display: inline-block;
+        padding: 22px 22px 16px;
+        border-radius: 50%;
+        background-color: #F7A100;
+        margin-right: 30px;
+    }
+
+    .contact__vpn .contact__top .right .top .circle .icon {
+        background-image: url("../../images/home/support.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact__vpn .contact__top .right .bottom .circle .icon {
+        background-image: url("../../images/home/contact-email.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact__vpn .contact__top .right .text {
+        margin: auto 0;
+    }
+
+    .contact__vpn .contact__top .right .title {
+        color: #1F1F20;
+        font-size: 15px;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__top .right .text-under {
+        font-size: 20px;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /*form*/
+    .contact__vpn .contact__form {
+        background-color: #fff;
+        padding: 30px 0 60px;
+    }
+
+    .contact__vpn .contact__form .title {
+        color: #01539C;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding: 30px 0 40px;
+    }
+
+    .contact__vpn .contact__form form {
+        padding: 30px 16px;
+        border: 1px solid #F7A100;
+    }
+
+    .contact__vpn .contact__form label {
+        color: #1F1F20;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__form .form-control {
+        border-radius: 0;
+        border: 1px solid #bfbfbf;
+    }
+
+    .contact__vpn .contact__form form .form-row {
+        margin: 0;
+    }
+
+    .contact__vpn .contact__form input {
+        padding: 12px 12px 12px 20px;
+    }
+
+    .contact__vpn .contact__form .form-group {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .contact__vpn .contact__form textarea {
+        height: 150px;
+    }
+
+    /*input file div*/
+    .contact__vpn .contact__form .form-row .input__file {
+        display: none;
+    }
+
+    .contact__vpn .contact__form .icon-file .file {
+        background-image: url("../../images/home/attachment.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .contact__vpn .contact__form .icon-file {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        padding: 6px 8px;
+        background-color: #F7A100;
+        color: #fff;
+        max-width: 45%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        cursor: pointer;
+
+    }
+
+    .contact__vpn .contact__form .bot__code {
+        margin-top: 12px;
+        display: flex;
+    }
+
+    .contact__vpn .contact__form .background__code {
+        background-image: url("../../images/home/code.webp");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 100px;
+        height: 25px;
+    }
+
+    .contact__vpn .contact__form .background__code .code {
+        margin: -2px 25px;
+        font-size: 18px;
+        color: #8c8c8c;
+    }
+
+    .contact__vpn .contact__form .reload {
+        background-image: url("../../images/home/refresh.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+
+    .contact__vpn .contact__form .button__form {
+        display: flex;
+        justify-content: center;
+        padding: 35px 0 20px;
+
+    }
+
+    .contact__vpn .contact__form .button__form .button:hover {
+        transition: 0.5s;
+        transform: translateY(-3px);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+
+    .contact__vpn .contact__form .button {
+        border: none;
+        cursor: pointer;
+        background-color: #F7A100;
+        padding: 8px 40px;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .contact__vpn .contact__form .icon-button {
+        background-image: url("../../images/home/send.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 35px;
+        height: 30px;
+        margin-right: 8px;
+    }
+
+    .contact__vpn .contact__form .hide__label {
+        color: #fff;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact__vpn .contact__top {
+        background-image: url("../../images/home/contact.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .contact__vpn .contact__top h1{
+        font-size: 30px;
+    }
+
+    .contact__vpn .contact__top .row {
+        padding: 50px 0 50px;
+    }
+
+    .contact__vpn .contact__top .left {
+        margin: auto 0;
+    }
+
+    .contact__vpn .contact__top .left h4 {
+        color: #01539C;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 27px;
+    }
+
+    .contact__vpn .contact__top .left p {
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    /*div right*/
+    .contact__vpn .contact__top .right {
+        border-left: 1px solid rgba(0, 119, 179, 0.2);
+        padding-left: 20px;
+    }
+
+    .contact__vpn .contact__top .right .top, .contact__vpn .contact__top .right .bottom {
+        display: flex;
+        padding: 12px 0;
+    }
+
+    .contact__vpn .contact__top .right .top {
+
+    }
+
+    .contact__vpn .contact__top .right .circle {
+        display: inline-block;
+        padding: 22px 22px 16px;
+        border-radius: 50%;
+        background-color: #F7A100;
+        margin-right: 30px;
+    }
+
+    .contact__vpn .contact__top .right .top .circle .icon {
+        background-image: url("../../images/home/support.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact__vpn .contact__top .right .bottom .circle .icon {
+        background-image: url("../../images/home/contact-email.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact__vpn .contact__top .right .text {
+        margin: auto 0;
+    }
+
+    .contact__vpn .contact__top .right .title {
+        color: #1F1F20;
+        font-size: 15px;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__top .right .text-under {
+        font-size: 20px;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /*form*/
+    .contact__vpn .contact__form {
+        background-color: #fff;
+        padding: 50px 0 70px;
+    }
+
+    .contact__vpn .contact__form .title {
+        color: #01539C;
+        font-size: 35px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding: 30px 0 40px;
+    }
+
+    .contact__vpn .contact__form form {
+        padding: 30px;
+        border: 1px solid #F7A100;
+    }
+
+    .contact__vpn .contact__form label {
+        color: #1F1F20;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__form .form-control {
+        border-radius: 0;
+        border: 1px solid #bfbfbf;
+    }
+
+    .contact__vpn .contact__form form .form-row {
+        margin: 0;
+    }
+
+    .contact__vpn .contact__form input {
+        padding: 12px 12px 12px 20px;
+    }
+
+    .contact__vpn .contact__form .form-group {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .contact__vpn .contact__form textarea {
+        height: 200px;
+    }
+
+    /*input file div*/
+    .contact__vpn .contact__form .form-row .input__file {
+        display: none;
+    }
+
+    .contact__vpn .contact__form .icon-file .file {
+        background-image: url("../../images/home/attachment.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .contact__vpn .contact__form .icon-file {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        padding: 6px 8px;
+        background-color: #F7A100;
+        color: #fff;
+        max-width: 40%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 32px;
+        cursor: pointer;
+
+    }
+
+    .contact__vpn .contact__form .bot__code {
+        margin-top: 32px;
+        display: flex;
+    }
+
+    .contact__vpn .contact__form .background__code {
+        background-image: url("../../images/home/code.webp");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+    }
+
+    .contact__vpn .contact__form .background__code .code {
+        margin: 0 20px;
+        font-size: 20px;
+        color: #8c8c8c;
+    }
+
+    .contact__vpn .contact__form .reload {
+        background-image: url("../../images/home/refresh.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+    .contact__vpn .contact__form .button__form {
+        display: flex;
+        justify-content: center;
+        padding: 50px 0 20px;
+
+    }
+
+    .contact__vpn .contact__form .button__form .button:hover {
+        transition: 0.5s;
+        transform: translateY(-3px);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+
+    .contact__vpn .contact__form .button {
+        border: none;
+        cursor: pointer;
+        background-color: #F7A100;
+        padding: 12px 50px;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .contact__vpn .contact__form .icon-button {
+        background-image: url("../../images/home/send.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 35px;
+        height: 30px;
+        margin-right: 8px;
+    }
+
+    .contact__vpn .contact__form .hide__label {
+        color: #fff;
+    }
+}
+
+/*pc*/
+@media (min-width: 1200px) {
+    .contact__vpn .contact__top {
+        background-image: url("../../images/home/contact.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .contact__vpn .contact__top h1{
+        font-size: 1.75rem;
+    }
+    .contact__vpn .contact__top .row {
+        padding: 70px 0 70px;
+    }
+
+    .contact__vpn .contact__top .left {
+        margin: auto 0;
+    }
+
+    .contact__vpn .contact__top .left h4 {
+        color: #01539C;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .contact__vpn .contact__top .left p {
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    /*div right*/
+    .contact__vpn .contact__top .right {
+        border-left: 1px solid rgba(0, 119, 179, 0.2);
+        padding-left: 30px;
+    }
+
+    .contact__vpn .contact__top .right .top, .contact__vpn .contact__top .right .bottom {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .contact__vpn .contact__top .right .top {
+
+    }
+
+    .contact__vpn .contact__top .right .circle {
+        display: inline-block;
+        padding: 22px 22px 16px;
+        border-radius: 50%;
+        background-color: #F7A100;
+        margin-right: 30px;
+    }
+
+    .contact__vpn .contact__top .right .top .circle .icon {
+        background-image: url("../../images/home/support.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+    }
+
+    .contact__vpn .contact__top .right .bottom .circle .icon {
+        background-image: url("../../images/home/contact-email.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+    }
+
+    .contact__vpn .contact__top .right .text {
+        margin: auto 0;
+    }
+
+    .contact__vpn .contact__top .right .title {
+        color: #1F1F20;
+        font-size: 15px;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__top .right .text-under {
+        font-size: 20px;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /*form*/
+    .contact__vpn .contact__form {
+        background-color: #fff;
+        padding: 60px 0 80px;
+    }
+
+    .contact__vpn .contact__form .title {
+        color: #01539C;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding: 30px 0 40px;
+    }
+
+    .contact__vpn .contact__form form {
+        padding: 30px 55px;
+        border: 1px solid #F7A100;
+    }
+
+    .contact__vpn .contact__form label {
+        color: #1F1F20;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact__vpn .contact__form .form-control {
+        border-radius: 0;
+        border: 1px solid #bfbfbf;
+    }
+
+    .contact__vpn .contact__form form .form-row {
+        margin: 0;
+    }
+
+    .contact__vpn .contact__form input {
+        padding: 12px 12px 12px 20px;
+    }
+
+    .contact__vpn .contact__form .form-group {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .contact__vpn .contact__form textarea {
+        height: 200px;
+    }
+
+    /*input file div*/
+    .contact__vpn .contact__form .form-row .input__file {
+        display: none;
+    }
+
+    .contact__vpn .contact__form .icon-file .file {
+        background-image: url("../../images/home/attachment.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .contact__vpn .contact__form .icon-file {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        padding: 6px 8px;
+        background-color: #F7A100;
+        color: #fff;
+        max-width: 30%;
+        display: flex;
+        align-items: center;
+        /*margin-bottom: 32px;*/
+        cursor: pointer;
+
+    }
+
+    .contact__vpn .contact__form .bot__code {
+        margin-top: 32px;
+        display: flex;
+    }
+
+    .contact__vpn .contact__form .background__code {
+        background-image: url("../../images/home/code.webp");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+    }
+
+    .contact__vpn .contact__form .background__code .code {
+        margin: 0 20px;
+        font-size: 20px;
+        color: #8c8c8c;
+    }
+
+    .contact__vpn .contact__form .reload {
+        background-image: url("../../images/home/refresh.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+    .contact__vpn .contact__form .button__form {
+        display: flex;
+        justify-content: center;
+        padding: 70px 0 30px;
+
+    }
+
+    .contact__vpn .contact__form .button__form .button:hover {
+        transition: 0.5s;
+        transform: translateY(-3px);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+
+    .contact__vpn .contact__form .button {
+        border: none;
+        cursor: pointer;
+        background-color: #F7A100;
+        padding: 14px 60px;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .contact__vpn .contact__form .icon-button {
+        background-image: url("../../images/home/send.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 35px;
+        height: 30px;
+        margin-right: 8px;
+    }
+
+    .contact__vpn .contact__form .hide__label {
+        color: #fff;
+    }
+
+}

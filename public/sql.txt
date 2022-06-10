@@ -1,0 +1,1 @@
+ALTER TABLE `tbl_seos` ADD `keywords` VARCHAR(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT 'lưu meta keywords của seo' AFTER `alternate`;

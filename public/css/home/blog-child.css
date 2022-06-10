@@ -1,0 +1,986 @@
+@media (max-width: 369.98px) {
+    .blog__child {
+        background-color: #fff;
+
+    }
+
+    .blog__child .blog__breadcrumb {
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .blog__child .blog__breadcrumb p {
+        margin-top: 10px;
+    }
+
+    .blog__child .blog__breadcrumb a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #6E6E75;
+        font-weight: 300;
+    }
+
+    .blog__child .blog__breadcrumb a:nth-child(3) {
+        font-weight: 500;
+    }
+
+    /*content*/
+    .blog__child .blog__content .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .blog__content .create-time {
+        display: flex;
+        padding: 10px 0;
+    }
+
+    .blog__child .blog__content .text-time {
+        margin-left: 10px;
+        margin-bottom: 0;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .blog__content .title {
+        font-size: 25px;
+        margin-bottom: 15px;
+        color: #1F1F20;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .blog__child .blog__content .blog-avatar {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        /*background-image: url("../../images/home/example.png");*/
+        /*background-position: center;*/
+        /*background-repeat: no-repeat;*/
+        background-size: 100% 100%;
+        margin-bottom: 16px;
+    }
+
+    .blog__child .blog__content .blog-category {
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        padding: 6px 12px;
+        font-size: 13px;
+        background-color: #01539C;
+    }
+
+    .blog__child .blog__content .introduce-blog {
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1F20;
+    }
+
+    .blog__child .blog__content .content p {
+        font-size: 14px;
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+
+    /*other blog*/
+    .blog__child .other__blogs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .blog__child .other__blogs .sub-item {
+        margin-bottom: 12px;
+    }
+
+    .blog__child .other__blogs .title {
+        padding: 0 0 20px 0;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-size: 25px;
+        letter-spacing: 0;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .blog__child .other__blogs .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .other__blogs .create-time {
+        display: flex;
+    }
+
+    .blog__child .other__blogs .text-time {
+        margin-left: 10px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .other__blogs .card-body {
+        padding: 12px;
+        min-height: 190px;
+    }
+
+    .blog__child .other__blogs .card {
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: 0;
+    }
+
+    .blog__child .other__blogs .card-title {
+        color: #1F1F20;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .blog__child .other__blogs .card-text {
+        color: #1F1F20;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .blog__child img {
+        width: 100%;
+        height: 100%;
+    }
+    .blog__child .other__blogs .card-img {
+        height: 230px;
+    }
+}
+
+@media (min-width: 370px) and (max-width: 575.98px) {
+    .blog__child {
+        background-color: #fff;
+
+    }
+
+    .blog__child .blog__breadcrumb {
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .blog__child .blog__breadcrumb p {
+        margin-top: 10px;
+    }
+
+    .blog__child .blog__breadcrumb a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #6E6E75;
+        font-weight: 300;
+    }
+
+    .blog__child .blog__breadcrumb a:nth-child(3) {
+        font-weight: 500;
+    }
+
+    /*content*/
+    .blog__child .blog__content .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .blog__content .create-time {
+        display: flex;
+        padding: 10px 0;
+    }
+
+    .blog__child .blog__content .text-time {
+        margin-left: 10px;
+        margin-bottom: 0;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .blog__content .title {
+        font-size: 25px;
+        margin-bottom: 15px;
+        color: #1F1F20;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .blog__child .blog__content .blog-avatar {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        /*background-image: url("../../images/home/example.png");*/
+        /*background-position: center;*/
+        /*background-repeat: no-repeat;*/
+        background-size: 100% 100%;
+        margin-bottom: 16px;
+    }
+
+    .blog__child .blog__content .blog-category {
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        padding: 6px 12px;
+        font-size: 13px;
+        background-color: #01539C;
+    }
+
+    .blog__child .blog__content .introduce-blog {
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1F20;
+    }
+
+    .blog__child .blog__content .content p {
+        font-size: 14px;
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+
+    /*other blog*/
+    .blog__child .other__blogs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .blog__child .other__blogs .sub-item {
+        margin-bottom: 12px;
+    }
+
+    .blog__child .other__blogs .title {
+        padding: 0 0 20px 0;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-size: 25px;
+        letter-spacing: 0;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .blog__child .other__blogs .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .other__blogs .create-time {
+        display: flex;
+    }
+
+    .blog__child .other__blogs .text-time {
+        margin-left: 10px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .other__blogs .card-body {
+        padding: 12px;
+        min-height: 190px;
+    }
+
+    .blog__child .other__blogs .card {
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: 0;
+    }
+
+    .blog__child .other__blogs .card-title {
+        color: #1F1F20;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .blog__child .other__blogs .card-text {
+        color: #1F1F20;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .blog__child img {
+        width: 100%;
+        height: 100%;
+    }
+    .blog__child .other__blogs .card-img {
+        height: 230px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .blog__child {
+        background-color: #fff;
+    }
+
+    .blog__child .blog__breadcrumb {
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .blog__child .blog__breadcrumb p {
+        margin-top: 10px;
+    }
+
+    .blog__child .blog__breadcrumb a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #6E6E75;
+        font-weight: 300;
+    }
+
+    .blog__child .blog__breadcrumb a:nth-child(3) {
+        font-weight: 500;
+    }
+
+    /*content*/
+    .blog__child .blog__content .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .blog__content .create-time {
+        display: flex;
+        padding: 10px 0;
+    }
+
+    .blog__child .blog__content .text-time {
+        margin-left: 10px;
+        margin-bottom: 0;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .blog__content .title {
+        font-size: 25px;
+        padding: 0 0 15px;
+        color: #1F1F20;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .blog__child .blog__content .blog-avatar {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        /*background-image: url("../../images/home/example.png");*/
+        /*background-position: center;*/
+        /*background-repeat: no-repeat;*/
+        background-size: 100% 100%;
+        margin-bottom: 16px;
+    }
+
+    .blog__child .blog__content .blog-category {
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        padding: 6px 12px;
+        font-size: 13px;
+        background-color: #01539C;
+    }
+
+    .blog__child .blog__content .introduce-blog {
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1F20;
+    }
+
+    .blog__child .blog__content .content p {
+        font-size: 14px;
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+
+    /*other blog*/
+    .blog__child .other__blogs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .blog__child .other__blogs .sub-item {
+        margin-bottom: 12px;
+    }
+
+    .blog__child .other__blogs .title {
+        padding: 0 0 20px 0;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-size: 25px;
+        letter-spacing: 0;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .blog__child .other__blogs .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .other__blogs .create-time {
+        display: flex;
+    }
+
+    .blog__child .other__blogs .text-time {
+        margin-left: 10px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .other__blogs .card-body {
+        padding: 12px;
+        min-height: 190px;
+    }
+
+    .blog__child .other__blogs .card {
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: 0;
+    }
+
+    .blog__child .other__blogs .card-title {
+        color: #1F1F20;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .blog__child .other__blogs .card-text {
+        color: #1F1F20;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .blog__child img {
+        width: 100%;
+        height: 100%;
+    }
+    .blog__child .other__blogs .card-img {
+        height: 230px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .blog__child {
+        background-color: #fff;
+
+    }
+
+    .blog__child .blog__breadcrumb {
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .blog__child .blog__breadcrumb p {
+        margin-top: 10px;
+    }
+
+    .blog__child .blog__breadcrumb a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #6E6E75;
+        font-weight: 300;
+    }
+
+    .blog__child .blog__breadcrumb a:nth-child(3) {
+        font-weight: 500;
+    }
+
+    /*content*/
+    .blog__child .blog__content .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .blog__content .create-time {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .blog__child .blog__content .text-time {
+        margin-left: 10px;
+        margin-bottom: 0;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .blog__content .title {
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: #1F1F20;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .blog__child .blog__content .blog-avatar {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        /*background-image: url("../../images/home/example.png");*/
+        /*background-position: center;*/
+        /*background-repeat: no-repeat;*/
+        background-size: 100% 100%;
+        margin-bottom: 16px;
+    }
+
+    .blog__child .blog__content .blog-category {
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        padding: 6px 12px;
+        font-size: 15px;
+        background-color: #01539C;
+    }
+
+    .blog__child .blog__content .introduce-blog {
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1F20;
+    }
+
+    .blog__child .blog__content .content p {
+        font-size: 15px;
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+
+    /*other blog*/
+    .blog__child .other__blogs {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .blog__child .other__blogs .title {
+        padding: 0 0 25px 0;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-size: 30px;
+        letter-spacing: 0;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .blog__child .other__blogs .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .other__blogs .create-time {
+        display: flex;
+    }
+
+    .blog__child .other__blogs .text-time {
+        margin-left: 10px;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .other__blogs .card-body {
+        padding: 12px;
+        min-height: 191px;
+    }
+
+    .blog__child .other__blogs .card {
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: 0;
+    }
+
+    .blog__child .other__blogs .card-title {
+        color: #1F1F20;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .blog__child .other__blogs .card-text {
+        color: #1F1F20;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .blog__child img {
+        width: 100%;
+        height: 100%;
+    }
+    .blog__child .other__blogs .card-img {
+        height: 230px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .blog__child {
+        background-color: #fff;
+
+    }
+
+    .blog__child .blog__breadcrumb {
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .blog__child .blog__breadcrumb p {
+        margin-top: 10px;
+    }
+
+    .blog__child .blog__breadcrumb a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #6E6E75;
+        font-weight: 300;
+    }
+
+    .blog__child .blog__breadcrumb a:nth-child(3) {
+        font-weight: 500;
+    }
+
+    /*content*/
+    .blog__child .blog__content .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .blog__content .create-time {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .blog__child .blog__content .text-time {
+        margin-left: 10px;
+        margin-bottom: 0;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .blog__content .title {
+        font-size: 35px;
+        margin-bottom: 30px;
+        color: #1F1F20;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .blog__child .blog__content .blog-avatar {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        /*background-image: url("../../images/home/example.png");*/
+        /*background-position: center;*/
+        /*background-repeat: no-repeat;*/
+        background-size: 100% 100%;
+        margin-bottom: 16px;
+    }
+
+    .blog__child .blog__content .blog-category {
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        padding: 6px 12px;
+        font-size: 15px;
+        background-color: #01539C;
+    }
+
+    .blog__child .blog__content .introduce-blog {
+        margin-bottom: 30px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1F20;
+    }
+
+    .blog__child .blog__content .content p {
+        font-size: 15px;
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+
+    /*other blog*/
+    .blog__child .other__blogs {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .blog__child .other__blogs .title {
+        padding: 0 0 30px 0;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-size: 35px;
+        letter-spacing: 0;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .blog__child .other__blogs .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .other__blogs .create-time {
+        display: flex;
+    }
+
+    .blog__child .other__blogs .text-time {
+        margin-left: 10px;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .other__blogs .card-body {
+        padding: 1.25rem;
+        min-height: 215px;
+    }
+
+    .blog__child .other__blogs .card {
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: 0;
+    }
+
+    .blog__child .other__blogs .card-title {
+        color: #1F1F20;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .blog__child .other__blogs .card-text {
+        color: #1F1F20;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .blog__child img {
+        width: 100%;
+        height: 100%;
+    }
+    .blog__child .other__blogs .card-img {
+        height: 230px;
+    }
+}
+
+/*pc*/
+@media (min-width: 1200px) {
+    .blog__child img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .blog__child {
+        background-color: #fff;
+
+    }
+
+    .blog__child .blog__breadcrumb {
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .blog__child .blog__breadcrumb p {
+        margin-top: 10px;
+    }
+
+    .blog__child .blog__breadcrumb a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #6E6E75;
+        font-weight: 300;
+    }
+
+    .blog__child .blog__breadcrumb a:nth-child(3) {
+        font-weight: 600;
+    }
+
+    /*content*/
+    .blog__child .blog__content .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .blog__content .create-time {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .blog__child .blog__content .text-time {
+        margin-left: 10px;
+        margin-bottom: 0;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .blog__content .title {
+        font-size: 40px;
+        margin-bottom: 30px;
+        color: #1F1F20;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .blog__child .blog__content .blog-avatar {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        /*background-image: url("../../images/home/example.png");*/
+        /*background-position: center;*/
+        /*background-repeat: no-repeat;*/
+        background-size: 100% 100%;
+        margin-bottom: 16px;
+    }
+
+    .blog__child .blog__content .blog-category {
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        padding: 6px 12px;
+        font-size: 15px;
+        background-color: #01539C;
+    }
+
+    .blog__child .blog__content .introduce-blog {
+        margin-bottom: 30px;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1F20;
+    }
+
+    .blog__child .blog__content .content p {
+        font-size: 16px;
+        color: #1F1F20;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+
+    /*other blog*/
+    .blog__child .other__blogs {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .blog__child .other__blogs .title {
+        padding: 0 0 30px 0;
+        color: #01539C;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-size: 35px;
+        letter-spacing: 0;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .blog__child .other__blogs .item-calendar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 20px;
+        background-image: url("../../images/home/calendar.svg");
+    }
+
+    .blog__child .other__blogs .create-time {
+        display: flex;
+    }
+
+    .blog__child .other__blogs .text-time {
+        margin-left: 10px;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: #6E6E75;
+    }
+
+    .blog__child .other__blogs .card-body {
+        padding: 1.25rem;
+        min-height: 222px;
+    }
+
+    .blog__child .other__blogs .card {
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: 0;
+    }
+
+    .blog__child .other__blogs .card-title {
+        color: #1F1F20;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .blog__child .other__blogs .card-text {
+        color: #1F1F20;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .blog__child .other__blogs .card-img {
+        height: 230px;
+    }
+    .blog__child .other__blogs .sub-item a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
