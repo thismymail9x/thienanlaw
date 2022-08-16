@@ -16,7 +16,7 @@
 defined('APP_NAMESPACE') || define('APP_NAMESPACE', 'App');
 //defined('BASE_URL_GLOBAL') || define('BASE_URL_GLOBAL', 'http://tuannt-vpn.onoffice.vn');
 
-defined('BASE_URL_GLOBAL') || define('BASE_URL_GLOBAL', 'https://visitor.onoffice.vn');
+defined('BASE_URL_GLOBAL') || define('BASE_URL_GLOBAL', 'https://thienanlaw.onoffice.vn');
 
 //defined('BASE_URL_GLOBAL') || define('BASE_URL_GLOBAL', 'https://intovpn.net');
 //defined('BASE_URL_GLOBAL') || define('BASE_URL_GLOBAL', 'https://intovpn.onoffice.vn');

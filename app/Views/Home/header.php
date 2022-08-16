@@ -14,33 +14,50 @@
     $record = $reader->country($ip);
     $locale = $record->country->names;
     ?>
-    <p class="title-top container">
-        <span><?= lang("Text.header.your_ip") ?>: <?= $ip ?>
-        </span>
-        <span>|&nbsp;<?= lang("Text.header.country") ?>: <?php echo $locale['en'] ?> </span>
-    </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <a class="logo-ta"  href="<?php echo base_url('/'); ?>">
+                    <img width="100%" height="100%" src="<?php echo BASE_URL_GLOBAL; ?>/public/images/home/logo-ta.png"
+                         alt="intoVPN">
+                </a>
+            </div>
+            <div class="col-8" style="color: #c688eb;text-align: right">
+                <div class="row" style="padding: 40px 0">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-6" style="font-size: 25px; font-weight: bold"> L.s Nguyễn Phương</div>
+                    <div class="col-4" style="text-align: left">
+                        <span> 0987.123.456</span>
+                        <br>
+                        <span> email@gmail.com</span>
+                    </div>
+                </div>
+                <p>Trụ sở chính: Số 1 Duy Tân Cầu Giấy - Hà Nội</p>
+            </div>
+        </div>
+    </div>
+
+
 </div>
 <div class="header__navbar" id="navbar">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="<?php echo base_url('/'); ?>">
-                <img width="100%" height="100%" src="<?php echo BASE_URL_GLOBAL; ?>/public/images/home/logo-0.jpg"
-                     alt="intoVPN">
-            </a>
-            <span class="navbar-text mobile">
-                <a href="<?php echo URL_LOGIN_MYINTOVPN; ?>"><?= lang("Text.header.login") ?></a>
-            </span>
-            <div class="language mobile d-flex align-items-center">
-                <div class="icon-earth"></div>
-                <select class="language__select" name="lang" id="">
-                    <option <?php if (isset($_COOKIE['lang']) && $_COOKIE['lang'] == 'vi') {
-                        echo 'selected';
-                    } ?> value="vi"><?= lang("Text.header.vi") ?></option>
-                    <option <?php if (isset($_COOKIE['lang']) && $_COOKIE['lang'] == 'en') {
-                        echo 'selected';
-                    } ?> value="en"><?= lang("Text.header.en") ?></option>
-                </select>
-            </div>
+
+<!--            <span class="navbar-text mobile">-->
+<!--                <a href="--><?php //echo URL_LOGIN_MYINTOVPN; ?><!--">--><?//= lang("Text.header.login") ?><!--</a>-->
+<!--            </span>-->
+<!--            <div class="language mobile d-flex align-items-center">-->
+<!--                <div class="icon-earth"></div>-->
+<!--                <select class="language__select" name="lang" id="">-->
+<!--                    <option --><?php //if (isset($_COOKIE['lang']) && $_COOKIE['lang'] == 'vi') {
+//                        echo 'selected';
+//                    } ?><!-- value="vi">--><?//= lang("Text.header.vi") ?><!--</option>-->
+<!--                    <option --><?php //if (isset($_COOKIE['lang']) && $_COOKIE['lang'] == 'en') {
+//                        echo 'selected';
+//                    } ?><!-- value="en">--><?//= lang("Text.header.en") ?><!--</option>-->
+<!--                </select>-->
+<!--            </div>-->
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,19 +65,19 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <?= @$menu['post_content'] ?>
-                <span class="navbar-text"><a
-                            href="<?php echo URL_LOGIN_MYINTOVPN; ?>"><?= lang("Text.header.login") ?></a></span>
-                <div class="language d-flex align-items-center">
-                    <div class="icon-earth"></div>
-                    <select class="language__select" name="lang" id="">
-                        <option <?php if (isset($_COOKIE['lang']) && $_COOKIE['lang'] == 'vi') {
-                            echo 'selected';
-                        } ?> value="vi"><?= lang("Text.header.vi") ?></option>
-                        <option <?php if (isset($_COOKIE['lang']) && $_COOKIE['lang'] == 'en') {
-                            echo 'selected';
-                        } ?> value="en"><?= lang("Text.header.en") ?></option>
-                    </select>
-                </div>
+<!--                <span class="navbar-text"><a-->
+<!--                            href="--><?php //echo URL_LOGIN_MYINTOVPN; ?><!--">--><?//= lang("Text.header.login") ?><!--</a></span>-->
+<!--                <div class="language d-flex align-items-center">-->
+<!--                    <div class="icon-earth"></div>-->
+<!--                    <select class="language__select" name="lang" id="">-->
+<!--                        <option --><?php //if (isset($_COOKIE['lang']) && $_COOKIE['lang'] == 'vi') {
+//                            echo 'selected';
+//                        } ?><!-- value="vi">--><?//= lang("Text.header.vi") ?><!--</option>-->
+<!--                        <option --><?php //if (isset($_COOKIE['lang']) && $_COOKIE['lang'] == 'en') {
+//                            echo 'selected';
+//                        } ?><!-- value="en">--><?//= lang("Text.header.en") ?><!--</option>-->
+<!--                    </select>-->
+<!--                </div>-->
             </div>
         </nav>
     </div>
