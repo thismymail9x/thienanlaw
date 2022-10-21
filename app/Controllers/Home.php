@@ -40,7 +40,6 @@ class Home extends BaseController
         if (isset($_COOKIE['lang'])) {
             $lang = $_COOKIE['lang'];
         }
-
         $current_url = 'https://'.$this->request->getServer('HTTP_HOST').$this->request->getServer('REQUEST_URI');
         $base_url = BASE_URL_GLOBAL.'/';
         if ($current_url == $base_url) {

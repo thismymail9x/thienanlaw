@@ -22,15 +22,15 @@
                          alt="intoVPN">
                 </a>
             </div>
-            <div class="col-8" style="color: #c688eb;text-align: right">
+            <div class="col-8" style="color: #956ad6;text-align: right">
                 <div class="row" style="padding: 40px 0">
                     <div class="col-2">
                     </div>
                     <div class="col-6" style="font-size: 25px; font-weight: bold"> L.s Nguyễn Phương</div>
-                    <div class="col-4" style="text-align: left">
-                        <span> 0987.123.456</span>
+                    <div class="col-4" style="">
+                        <a href="tel:0987123465" style="text-decoration: none;color: #956ad6">0987.123.456</a>
                         <br>
-                        <span> email@gmail.com</span>
+                        <a style="text-decoration: none;color: #956ad6" href="mailto:email@gmail.com"> email@gmail.com</a>
                     </div>
                 </div>
                 <p>Trụ sở chính: Số 1 Duy Tân Cầu Giấy - Hà Nội</p>

@@ -778,7 +778,7 @@
             top: 50px;
             position: absolute;
             display: none;
-            background-color: #f2f2f2;
+            background-color: #f0bd74;
             border-radius: 5px;
             width: 115%;
             left: -7px;
@@ -795,6 +795,7 @@
         }
         .header__navbar .cf li .sub-menu a {
             padding: 6px 10px;
+            text-transform: capitalize;
         }
         .header__navbar .cf li .sub-menu a:hover {
             transform: translateY(-5px);
@@ -953,7 +954,7 @@
         top: 50px;
         position: absolute;
         display: none;
-        background-color: #f2f2f2;
+        background-color: #f0bd74;
         border-radius: 5px;
         width: 115%;
         left: -7px;
@@ -970,6 +971,7 @@
    }
     .header__navbar .cf li .sub-menu a {
         padding: 6px 10px;
+        text-transform: capitalize;
     }
     .header__navbar .cf li .sub-menu a:hover {
         transform: translateY(-1px);
@@ -978,7 +980,7 @@
         position: relative;
     }
     .header__top .logo-ta img {
-        width: 250px;
+        width: 280px;
     }
 }
 #navbar {

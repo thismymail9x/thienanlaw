@@ -61,13 +61,18 @@ $(document).ready(function() {
           $(".cf li a").next('.sub-menu').removeClass('d-block');
          // $(".cf li .sub-menu .sub-menu").removeClass('d-block');
        $(this).next('.sub-menu').addClass('d-block');
-
     });
 
     $(".cf li .sub-menu li a").mouseover(function() {
          $(this).parent().parent().addClass('d-block');
         $(this).next('.sub-menu').addClass('d-block');
+        console.log('cc');
     });
+
+    $(".cf li .sub-menu li a").mouseout(function() {
+        $('.sub-menu').removeClass('d-block');
+    });
+
     $(".cf li .sub-menu li .sub-menu li a").mouseover(function() {
         $(this).parent().parent().addClass('d-block');
         $(this).parent().parent().parent().parent().addClass('d-block');
