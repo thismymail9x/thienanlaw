@@ -1,6 +1,97 @@
 <?= $this->extend("Layouts/HomeLayout") ?>
 <?= $this->section("content_home") ?>
 <? //= lang("Text.header.login") ?>
+    <section class="thienan-trangchu">
+        <div class="container list_features" >
+            <div class="row" style="margin: 10px 0;">
+                <div class=" col-6 col-md-4 col-lg-4">
+                    <a href="#" class="card wallet">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                        <p class="mobile-properties">Pháp lý doanh nghiệp</p>
+                        <p class="pc-properties">Tư vấn pháp lý doanh nghiệp</p>
+                    </a>
+                </div>
+                <div class=" col-6 col-md-4 col-lg-4">
+                    <a href="#" class="card wallet">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="fa-solid fa-heart-circle-exclamation"></i>
+                        </div>
+                        <p class="mobile-properties">Tư vấn luật hôn nhân</p>
+                        <p class="pc-properties">Tư vấn luật hôn nhân gia đình</p>
+                    </a>
+                </div>
+                <div class=" col-6 col-md-4 col-lg-4">
+                    <a href="#" class="card wallet">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                        </div>
+                        <p>Tư vấn thừa kế di chúc</p>
+                    </a>
+                </div>
+                <div class=" col-6 col-md-4 col-lg-4">
+                    <a href="#" class="card credentialing">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="fa-solid fa-mosque"></i>
+                        </div>
+                        <p>Tư vấn luật đất đai</p>
+                    </a>
+                </div>
+                <div class=" col-6 col-md-4 col-lg-4">
+                    <a href="#" class="card credentialing">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <p>Tư vấn luật giao thông</p>
+                    </a>
+                </div>
+                <div class=" col-6 col-md-4 col-lg-4">
+                    <a href="#" class="card credentialing">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="fa-solid fa-people-carry-box"></i>
+                        </div>
+                        <p>Tư vấn luật lao động</p>
+                    </a>
+                </div>
+                <div class=" col-6 col-md-4 col-lg-4">
+                    <a href="#" class="card human-resources">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="fa-solid fa-person-military-to-person"></i>
+                        </div>
+                        <p>Tư vấn luật hình sự</p>
+                    </a>
+                </div>
+                <div class=" col-6 col-md-4 col-lg-4">
+                    <a href="#" class="card human-resources">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="fa-solid fa-person-rays"></i>
+                        </div>
+                        <p>Tư vấn luật dân sự</p>
+                    </a>
+                </div>
+                <div class=" col-6 col-md-4 col-lg-4">
+                    <a href="#" class="card human-resources">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="fa-solid fa-people-roof"></i>
+                        </div>
+                        <p class="mobile-properties">Thủ tục hành chính</p>
+                        <p class="pc-properties">Tư vấn các thủ tục hành chính</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <section class="home__top">
         <div class="container">
             <h1 class="title">
@@ -17,6 +108,7 @@
             </p>
         </div>
     </section>
+
     <section class="home__center">
         <div class="container">
             <h2 class="title"><?= lang("Text.home_center.title") ?></h2>

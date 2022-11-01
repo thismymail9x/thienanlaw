@@ -57,7 +57,8 @@ tinymce.init({
         "/public/css/home/global.css," +
         "/public/css/home/section-footer-top.css," +
         "/public/css/home/contact.css," +
-        "/public/css/home/policy-security.css",
+        "/public/css/home/policy-security.css" +
+        "/public/css/home/thienan.css",
     toolbar: [
         'undo redo | bold italic underline strikethrough | fontselect fontsizeselect formatselect | alignleft aligncenter alignright alignjustify | outdent indent |  numlist bullist | forecolor backcolor removeformat | pagebreak | charmap emoticons | fullscreen  preview save print | imageupload insertfile image media template link codesample | ltr rtl code',
     ],

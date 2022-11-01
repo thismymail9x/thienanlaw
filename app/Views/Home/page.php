@@ -10,6 +10,10 @@
 <link rel="stylesheet preload" as="style" href="<?= BASE_URL_GLOBAL ?>/public/css/home/home.css">
 <link rel="stylesheet preload" as="style" href="<?= BASE_URL_GLOBAL ?>/public/css/home/policy-security.css">
 <link rel="stylesheet preload" as="style" href="<?= BASE_URL_GLOBAL ?>/public/css/home/global.css">
+<link rel="stylesheet preload" as="style" href="<?= BASE_URL_GLOBAL ?>/public/css/home/thienan.css">
+<link rel="stylesheet preload" as="style" href="<?= BASE_URL_GLOBAL ?>/public/plugins/fontawesome6/css/all.min.css">
+<link rel="stylesheet preload" as="style" href="<?= BASE_URL_GLOBAL ?>/public/plugins/fontawesome6/css/fontawesome.min.css">
+
 <link rel="stylesheet preload" as="style"
       href="<?= BASE_URL_GLOBAL ?>/public/plugins/carousel/dist/assets/owl.carousel.min.css">
 <link rel="stylesheet preload" as="style"
@@ -61,187 +65,98 @@
         </div>
     </section>
 <?php } ?>
+
 <?php echo @$blog_bottom['post_content']; ?>
 
 <section class="thienan-trangchu">
-    <div class="container">
+    <div class="container list_features" >
         <div class="row" style="margin: 10px 0;">
-            <div class="col">
-                <div class="card" style="position: relative">
-                    <a href="" class="title-category" style="padding: 30px 0;color: #70C2B4;
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    background-color: rgba(230, 230, 230,0.3);;
-    text-transform: uppercase;
-    font-weight: 500;">
-                        Tư vấn <br> pháp lý doanh nghiệp
-                    </a>
-                    <img style="width: 100%;height: 250px" src="<?= BASE_URL_GLOBAL ?>/public/images/thienan/ldn.png"
-                         class="" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Tư vấn pháp lý doanh nghiệp</p>
+            <div class=" col-6 col-md-4 col-lg-4">
+                <a href="#" class="card wallet">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <i class="fa-solid fa-building"></i>
                     </div>
-                </div>
+                    <p class="mobile-properties">Pháp lý doanh nghiệp</p>
+                    <p class="pc-properties">Tư vấn pháp lý doanh nghiệp</p>
+                </a>
             </div>
-            <div class="col">
-                <div class="card" style="position: relative">
-                    <a href="" class="title-category" style="padding: 30px 0;color: #70C2B4;
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    background-color: rgba(230, 230, 230,0.3);;
-    text-transform: uppercase;
-    font-weight: 500;">
-                        Tư vấn <br> luật hôn nhân và gia đình
-                    </a>
-                    <img style="width: 100%;height: 250px" src="<?= BASE_URL_GLOBAL ?>/public/images/thienan/hngd.png"
-                         class="" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Tư vấn luật hôn nhân gia đình</p>
+            <div class=" col-6 col-md-4 col-lg-4">
+                <a href="#" class="card wallet">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <i class="fa-solid fa-heart-circle-exclamation"></i>
                     </div>
-                </div>
+                    <p class="mobile-properties">Tư vấn luật hôn nhân</p>
+                    <p class="pc-properties">Tư vấn luật hôn nhân gia đình</p>
+                </a>
             </div>
-            <div class="col">
-                <div class="card" style="position: relative">
-                    <a href="" class="title-category" style="padding: 30px 0;color: #70C2B4;
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    background-color: rgba(230, 230, 230,0.3);;
-    text-transform: uppercase;
-    font-weight: 500;">
-                        Tư vấn <br> thừa kế di chúc
-                    </a>
-                    <img style="width: 100%;height: 250px" src="<?= BASE_URL_GLOBAL ?>/public/images/thienan/tkdc.png"
-                         class="" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Tư vấn thừa kế di chúc</p>
+            <div class=" col-6 col-md-4 col-lg-4">
+                <a href="#" class="card wallet">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <i class="fa-solid fa-envelope-open-text"></i>
                     </div>
-                </div>
+                    <p>Tư vấn thừa kế di chúc</p>
+                </a>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-4">
+                <a href="#" class="card credentialing">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <i class="fa-solid fa-mosque"></i>
+                    </div>
+                    <p>Tư vấn luật đất đai</p>
+                </a>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-4">
+                <a href="#" class="card credentialing">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <p>Tư vấn luật giao thông</p>
+                </a>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-4">
+                <a href="#" class="card credentialing">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <i class="fa-solid fa-people-carry-box"></i>
+                    </div>
+                    <p>Tư vấn luật lao động</p>
+                </a>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-4">
+                <a href="#" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <i class="fa-solid fa-person-military-to-person"></i>
+                    </div>
+                    <p>Tư vấn luật hình sự</p>
+                </a>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-4">
+                <a href="#" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <i class="fa-solid fa-person-rays"></i>
+                    </div>
+                    <p>Tư vấn luật dân sự</p>
+                </a>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-4">
+                <a href="#" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <i class="fa-solid fa-people-roof"></i>
+                    </div>
+                    <p class="mobile-properties">Thủ tục hành chính</p>
+                    <p class="pc-properties">Tư vấn các thủ tục hành chính</p>
+                </a>
             </div>
         </div>
-        <div class="row" style="margin: 10px 0;">
-            <div class="col">
-                <div class="card" style="position: relative">
-                    <a href="" class="title-category" style="padding: 30px 0;
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    background-color: rgba(230, 230, 230,0.3);;
-    text-transform: uppercase;
-    font-weight: 500;">
-                        Tư vấn <br> luật đất đai
-                    </a>
-                    <img style="width: 100%;height: 250px" src="<?= BASE_URL_GLOBAL ?>/public/images/thienan/ldd.png"
-                         class="" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Tư vấn luật đất đai</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="position: relative">
-                    <a href="" class="title-category" style="padding: 30px 0;
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    background-color: rgba(230, 230, 230,0.3);;
-    text-transform: uppercase;
-    font-weight: 500;">
-                        Tư vấn <br> luật giao thông
-                    </a>
-                    <img style="width: 100%;height: 250px" src="<?= BASE_URL_GLOBAL ?>/public/images/thienan/lgt.png"
-                         class="" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Tư vấn luật giao thông</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="position: relative">
-                    <a href="" class="title-category" style="padding: 30px 0;
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    background-color: rgba(230, 230, 230,0.3);;
-    text-transform: uppercase;
-    font-weight: 500;">
-                        Tư vấn <br> luật lao động
-                    </a>
-                    <img style="width: 100%;height: 250px" src="<?= BASE_URL_GLOBAL ?>/public/images/thienan/lld.png"
-                         class="" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Tư vấn luật lao động</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="margin: 10px 0;">
-            <div class="col">
-                <div class="card" style="position: relative">
-                    <a href="" class="title-category" style="padding: 30px 0;color: #fba2d0;
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    background-color: rgba(230, 230, 230,0.3);;
-    text-transform: uppercase;
-    font-weight: 500;">
-                        Tư vấn <br> luật hình sự
-                    </a>
-                    <img style="width: 100%;height: 250px" src="<?= BASE_URL_GLOBAL ?>/public/images/thienan/lhs.png"
-                         class="" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Tư vấn luật hình sự</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="position: relative">
-                    <a href="" class="title-category" style="padding: 30px 0;color: #fba2d0;
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    background-color: rgba(230, 230, 230,0.3);;
-    text-transform: uppercase;
-    font-weight: 500;">
-                        Tư vấn <br> luật dân sự
-                    </a>
-                    <img style="width: 100%;height: 250px" src="<?= BASE_URL_GLOBAL ?>/public/images/thienan/lds.png"
-                         class="" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Tư vấn luật dân sự</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="position: relative">
-                    <a href="" class="title-category" style="padding: 30px 0;color: #fba2d0;
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    background-color: rgba(230, 230, 230,0.3);;
-    text-transform: uppercase;
-    font-weight: 500;">
-                        Tư vấn <br> các thủ tục hành chính
-                    </a>
-                    <img style="width: 100%;height: 250px" src="<?= BASE_URL_GLOBAL ?>/public/images/thienan/tthc.png"
-                         class="" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Tư vấn các thủ tục hành chính</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
 </section>
 
